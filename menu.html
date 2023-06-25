@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon"/>
+    <title>Coffee Espresso</title>
+    <style>
+        section {
+            padding: 60px 0;
+        }
+        .card img {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-light p-4" id="navbar">
+        <div class="container-xxl">
+            <a href="index.html" class="navbar-brand">
+                <span class="fw-bold text-secondary">
+                    <i class="bi bi-cup-hot-fill"></i>
+                    Coffee Espresso
+                </span>
+            </a>
+            <!-- TOGGLE -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon border-0"></span>
+            </button>
+            <!-- NAVBAR LINKS -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact us</a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="#login" class="btn btn-outline-dark">Login</a>
+                    </li>
+                </ul>
+            </div>  
+        </div>
+    </nav>
+    <!-- MENU PAGE -->
+    <section class="intro" id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-7">
+                    <form>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                            <input type="text" class="form-control" id="name" placeholder="Search">
+                        </div>
+                    </form>
+                    <!-- TAB PAGE -->
+                    <nav>
+                        <div class="nav nav-pills justify-content-center align-items-center" id="nav-tab" role="tablist">
+                            <button class="btn active text-dark mx-2" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="#tab" aria-controls="nav-home" aria-selected="true">Drinks</button>
+                            <button class="btn text-dark mx-2" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="#tab" aria-controls="nav-home" aria-selected="false">Food</button>
+                            <button class="btn text-dark mx-2" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="#tab" aria-controls="nav-home" aria-selected="false">Merchandise</button>
+                        </div>    
+                    </nav>
+                    <div class="tab-content " id="nav-tabContent my-5">
+                        <div class="tab-pane fade show active p-3" id="nav-home" role="tab-panel" aria-labelledby="nav-home-tab">
+                            <p class="display-6 fw-bold">Drinks</p>
+                            <div class="row mt-5">
+                                <div class="col-md-4">
+                                    <a href="item.html"><img src="assets/macchiato.png" alt="macchiato" class="card-img-top"></a>
+                                    <div class="lead">Macchiato</div>
+                                    <p class="text-muted">₱199.00</p>
+                                    <p>Bold espresso shot topped with a touch of creamy foam, delivering a delightful and indulgent experience.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#"><img src="assets/cappucino-1.png" alt="macchiato" class="card-img-top"></a>
+                                    <div class="lead">Cappucino</div>
+                                    <p class="text-muted">₱149.00</p>
+                                    <p>Indulgent espresso, velvety milk, and a touch of foam create a luxurious cappuccino experience.</p>
+                                </div>  
+                                <div class="col-md-4">
+                                    <a href="#"><img src="assets/americano-1.png" alt="macchiato" class="card-img-top"></a>
+                                    <div class="lead">Americano</div>
+                                    <p class="text-muted">₱99.00</p>
+                                    <p>Bold espresso shot blended with hot water, creating a rich and smooth coffee experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade p-3" id="nav-profile" role="tab-panel" aria-labelledby="nav-profile-tab">
+                            <p class="display-6 fw-bold">Food</p>
+                            <div class="row mt-5">
+                                <div class="col-md-4">
+                                    <a href="#"><img src="assets/croissant.png" alt="macchiato" class="card-img-top"></a>
+                                    <div class="lead">Croissant</div>
+                                    <p class="text-muted">₱99.00</p>
+                                    <p>Flaky, buttery perfection. Indulge in our irresistible croissants for a delightful start to your day.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#"><img src="assets/glazed-donut.png" alt="macchiato" class="card-img-top"></a>
+                                    <div class="lead">Glazed Donut</div>
+                                    <p class="text-muted">₱79.00</p>
+                                    <p>Irresistibly sweet and sticky delight, our glazed donut is a heavenly treat for your taste buds.</p>
+                                </div>  
+                                <div class="col-md-4">
+                                    <a href="#"><img src="assets/egg-sandwich.png" alt="macchiato" class="card-img-top"></a>
+                                    <div class="lead">Egg Sandwich</div>
+                                    <p class="text-muted">₱89.00</p>
+                                    <p>Satisfyingly delicious: Perfectly cooked eggs nestled between toasted bread, creating a mouthwatering breakfast delight.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade p-3" id="nav-contact" role="tab-panel" aria-labelledby="nav-contant-tab">
+                            <p class="display-6 fw-bold">Merchandise</p>
+                            <div class="row mt-5">
+                                <div class="col-md-4">
+                                    <a href="#"><img src="assets/tumbler-1.png" alt="macchiato" class="card-img-top"></a>
+                                    <div class="lead">Glass Tumbler</div>
+                                    <p class="text-muted">₱99.00</p>
+                                    <p>Sleek and durable glass tumbler, perfect for enjoying your favorite beverages on the go.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#"><img src="assets/tumbler-2.png" alt="macchiato" class="card-img-top"></a>
+                                    <div class="lead">Sleek Tumbler</div>
+                                    <p class="text-muted">₱79.00</p>
+                                    <p>Sleek and stylish, the Black Tumbler keeps your beverages hot or cold in ultimate sophistication.</p>
+                                </div>  
+                                <div class="col-md-4">
+                                    <a href="#"><img src="assets/tumber-3.png" alt="macchiato" class="card-img-top"></a>
+                                    <div class="lead">Peach Tumbler</div>
+                                    <p class="text-muted">₱89.00</p>
+                                    <p>Vibrant tumbler radiating sunshine vibes, adorned with a peach and yellow palette for stylish sips..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <div class="container-fluid">
+        <div class="bg-light py-5">
+            <div class="text-center">
+                <a href="#navbar" class="display-5 fw-bold text-muted text-decoration-none"><p >Coffee Espresso'</p></a>
+                <h5>All rights reserved</h5>
+                <p class="lead">Bringing you happiness with a sip of our coffee.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="p-2">
+                    <a href="#" class="text-dark text-lg"><i class="bi bi-facebook"></i></a>
+                </div>
+                <div class="p-2"> 
+                    <a href="#" class="text-dark"><i class="bi bi-whatsapp"></i></a>
+                </div>
+                <div class="p-2">
+                    <a href="#" class="text-dark"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+    </script>
+</body>
+</html>
