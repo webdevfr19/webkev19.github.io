@@ -7,7 +7,6 @@ body {
 }
 
 .bg-blur {
-    border-radius: 25%;
     background-color: rgba(248,249,250, 0.7);
 }
 
