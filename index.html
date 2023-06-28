@@ -7,16 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="icon" href="assets/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="darktheme.css" />
     <title>Coffee Espresso</title>
-    <style>
-        section {
-            padding: 60px 0;
-        }
-        .card img {
-            width: 200px;
-        }
-    </style>
 </head>
 <script src="theme.js"></script>
 <body>
@@ -54,31 +47,31 @@
     <section class="intro" id="intro">
         <div class="container-lg pb-5">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-5 text-center text-md-start">
+                <div class="col-md-5 text-center mt-4 text-md-start mb-5">
                     <h1>
                         <div class="display-3 fw-bold">Coffee Espresso</div>
                         <div class="display-5 text-muted">Bad day? Coffee.</div>
                     </h1>
                     <p class="lead my-4 text-muted">Experience the captivating world of coffee. Indulge in rich flavors, expertly crafted blends, and the perfect brew. Elevate your coffee moments with us.</p>
-                    <a href="menu.html" class="btn btn-outline-dark btn-lg">Buy now</a>
+                    <a href="menu.html" class="btn btn-outline-dark btn-lg">View menu</a>
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
-                    <img class="img-fluid" src="assets/home-coffee.png" alt="cover">
+                    <img class="img-fluid border rounded-circle bg-blur-item bg-gradient p-5" src="assets/home-coffee.png" alt="cover" style="transform: rotate(-15deg);"">
                 </div>
             </div>
         </div>
     </section>
     <!-- PRICING -->
-    <section id="menu" class="bg-light mt-5">
+    <section id="menu" class="bg-blur mt-5">
         <div class="container-lg">
-          <div class="text-center">
+          <div class="text-center mt-4">
             <h2>Menu</h2>
             <p class="lead text-muted">We picked our best coffees, for you.</p>
           </div>
     
           <div class="row my-5 g-0 align-items-center justify-content-center">
-            <div class="col-8 col-lg-4 col-xl-3">
-              <div class="card border-0">
+            <div class="col-8 col-md-4 col-xl-3">
+              <div class="card border-0 shadow">
                 <div class="card-body text-center py-4">
                     <img src="assets/black.png" alt="" class="cart-image-top img-fluid">
                     <h4 class="card-title">Black Coffee</h4>
@@ -91,8 +84,8 @@
               </div>
             </div>
     
-            <div class="col-9 col-lg-4">
-              <div class="card border-dark border-2">
+            <div class="col-9 col-md-4">
+              <div class="card border-dark border-2 shadow">
                 <div class="card-header text-center text-dark">Most Popular</div>
                 <div class="card-body text-center py-5">
                     <img src="assets/cappucino.png" alt="" class="cart-image-top img-fluid">
@@ -106,9 +99,9 @@
               </div>
             </div>
     
-            <div class="col-8 col-lg-4 col-xl-3">
+            <div class="col-8 col-md-4 col-xl-3">
               <div class="card border-0">
-                <div class="card-body text-center py-4">
+                <div class="card-body text-center py-4 shadow">
                     <img src="assets/americano.png" alt="" class="cart-image-top img-fluid">
                     <h4 class="card-title">Americano</h4>
                     <p class="display-5 my-4 text-dark fw-bold">₱99</p>
@@ -124,7 +117,7 @@
     </section>
     <!-- REVIEWS -->
 
-    <section id="reviews" class="bg-light">
+    <section id="reviews" class="">
         <div class="container-lg">
             <div class="text-center">
                 <h2><i class="bi bi-stars"></i> Coffee Reviews</h2>
@@ -191,7 +184,7 @@
     <div id="contact">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center my-5">
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <div class="text-center">
                         <h2>Glad you made this far.</h2>
                         <p class="lead">Questions? Ask us.</p>
@@ -200,7 +193,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6 bg-blur p-5">
                     <form>
                         <label for="email" class="form-label">Your Email Address: </label>
                         <div class="mb-4 input-group">
@@ -242,7 +235,7 @@
         <div class="bg-light py-5">
             <div class="text-center">
                 <a href="#navbar" class="display-5 fw-bold text-muted text-decoration-none"><p >Coffee Espresso'</p></a>
-                <h5>All rights reserved @Kevin Datiles</h5>
+                <h5>All rights reserved</h5>
                 <p class="lead">Bringing you happiness with a sip of our coffee.</p>
             </div>
             <div class="d-flex justify-content-center">

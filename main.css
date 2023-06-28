@@ -1,0 +1,23 @@
+body {
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg-blur {
+    border-radius: 25%;
+    background-color: rgba(248,249,250, 0.7);
+}
+
+.bg-blur-item {
+    background-color: rgba(33,37,41, 0.8);
+}
+
+section {
+    padding: 60px 0;
+}
+.card img {
+    width: 200px;
+}
